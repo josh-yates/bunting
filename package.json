@@ -1,0 +1,25 @@
+{
+  "name": "bunting",
+  "version": "1.0.0",
+  "description": "Add some neat bunting to your website",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-yates/bunting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh-yates/bunting/issues"
+  },
+  "homepage": "https://github.com/josh-yates/bunting#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
