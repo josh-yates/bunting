@@ -10,9 +10,5 @@ export interface BuntingOptions {
     /**
      * Whether the rope and flags should have a drop shadow.
      */
-    useShadow: boolean,
-    /**
-     * Whether the bunting should be redrawn upon page resize.
-     */
-    autoRedraw: boolean
+    useShadow: boolean
 }
