@@ -11,9 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/josh-yates/bunting.git"
   },
-  "keywords": [],
+  "keywords": [
+    "canvas"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/josh-yates/bunting/issues"
   },
