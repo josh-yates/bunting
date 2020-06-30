@@ -6,9 +6,5 @@ export interface BuntingOptions {
     /**
      * The colour of the rope, as a hex code.
      */
-    ropeColour: string,
-    /**
-     * Whether the rope and flags should have a drop shadow.
-     */
-    useShadow: boolean
+    ropeColour: string
 }

@@ -1,8 +1,7 @@
 export function drawBunting(
     canvas: HTMLCanvasElement,
     colorArray: string[],
-    ropeColour: string,
-    useShadow: boolean
+    ropeColour: string
 ) {
     //Make context use actual resolution
     const dpr = window.devicePixelRatio || 1;

@@ -4,8 +4,7 @@ export * from './lib/bunting-options';
 
 const defaultOptions: BuntingOptions = {
     colourSet: ['#00f', '#0f0', '#f00'],
-    ropeColour: '#000',
-    useShadow: true
+    ropeColour: '#000'
 };
 
 export function addBuntingTo(element: HTMLElement, options: BuntingOptions = defaultOptions): void {
@@ -24,14 +23,12 @@ export function addBuntingTo(element: HTMLElement, options: BuntingOptions = def
     window.addEventListener('resize', () => BuntingFns.drawBunting(
         buntingCanvas,
         options.colourSet,
-        options.ropeColour,
-        options.useShadow
+        options.ropeColour
     ));
 
     BuntingFns.drawBunting(
         buntingCanvas,
         options.colourSet,
-        options.ropeColour,
-        options.useShadow
+        options.ropeColour
     );
 }
