@@ -1,9 +1,12 @@
 {
   "name": "bunting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add some neat bunting to your website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "tsc"
   },
