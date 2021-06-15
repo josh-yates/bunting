@@ -5,7 +5,13 @@ export function drawBunting(
 ) {
     //Make context use actual resolution
     const dpr = window.devicePixelRatio || 1;
-    const rect = canvas.getBoundingClientRect();
+    const parentContainer = canvas.parentElement;
+
+    if (parentContainer === null) {
+        return;
+    }
+
+    const rect = parentContainer.getBoundingClientRect();
     canvas.width = rect.width * dpr;
     canvas.height = rect.height * dpr;
     const context = canvas.getContext("2d");

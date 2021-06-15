@@ -1,6 +1,6 @@
 {
   "name": "bunting",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add some neat bunting to your website",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
